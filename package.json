@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-i18n-translated",
+  "version": "1.0.0",
+  "description": "Eslint plugin to ensure i18n translation are translated",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Benjamin Van Ryseghem <benjamin.vanryseghem@gmail.com> (https://benjamin.vanryseghem.com/)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests/lib/**/*.js"
+  },
+  "dependencies": {
+    "object-path": "^0.11.5",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
